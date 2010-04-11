@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>class ${3:$2}Admin(admin.ModelAdmin):
+    # list_display = ('first_name', 'last_name')
+    pass
+
+admin.site.register(${4:$2}, ${5:$2}Admin)
+
+</string>
+	<key>name</key>
+	<string>admin model</string>
+	<key>tabTrigger</key>
+	<string>admin</string>
+	<key>uuid</key>
+	<string>756F51C4-C3D9-4425-9529-6E4A55B1318B</string>
+</dict>
+</plist>

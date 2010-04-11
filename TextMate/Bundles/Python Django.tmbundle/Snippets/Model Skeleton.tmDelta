@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>changed</key>
+	<dict>
+		<key>content</key>
+		<string>class ${1:Modelname}(models.Model):
+	"""${2:($1 description)}"""
+     
+	date_created = models.DateTimeField(blank=False, auto_now_add=True, editable=False)
+    date_changed = models.DateTimeField(blank=False, auto_now=True, editable=False)
+    source = models.CharField(blank=True, null, max_length=255, editable=False)
+	$0
+
+	class Meta:
+		verbose_name = "${3:$1}"
+		verbose_name_plural = "${4:$1s}"
+
+	def __unicode__(self):
+		return u"$1 %s" % self.id
+</string>
+	</dict>
+	<key>deleted</key>
+	<array/>
+	<key>isDelta</key>
+	<true/>
+	<key>uuid</key>
+	<string>311C17C5-A556-48D4-B91F-DD28BB0CF4E7</string>
+</dict>
+</plist>

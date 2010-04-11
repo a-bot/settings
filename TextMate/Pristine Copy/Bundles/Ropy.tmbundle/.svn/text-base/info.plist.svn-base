@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Ropy</string>
+	<key>ordering</key>
+	<array>
+		<string>AEBCC14A-DADA-4253-AE49-CF17A531B08A</string>
+		<string>AAB9EDED-6FC2-4E66-8571-3FEED594D509</string>
+		<string>B50861AA-A48D-41F1-BA45-0BFF86CC45F5</string>
+	</array>
+	<key>uuid</key>
+	<string>45269333-5D92-45BF-927B-E3304FE6D02F</string>
+</dict>
+</plist>

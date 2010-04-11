@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>saveActiveFile</string>
+	<key>command</key>
+	<string>#!/bin/bash
+# duplicate this command and add --docs switcher if needed
+tempy.py --project $TM_PROJECT_DIRECTORY --file $TM_FILEPATH --line $TM_LINE_NUMBER --column $TM_LINE_INDEX --docs
+</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>~?</string>
+	<key>name</key>
+	<string>untitled copy</string>
+	<key>output</key>
+	<string>showAsTooltip</string>
+	<key>uuid</key>
+	<string>085630FF-ACA8-4718-B457-654DD4E9D0C9</string>
+</dict>
+</plist>

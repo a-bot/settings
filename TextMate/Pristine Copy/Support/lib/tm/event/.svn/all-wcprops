@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/11595/trunk/Support/lib/tm/event
+END
+notification.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/!svn/ver/11546/trunk/Support/lib/tm/event/notification.rb
+END
+scope_selector_scorer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/11545/trunk/Support/lib/tm/event/scope_selector_scorer.rb
+END
+notification_preferences.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/!svn/ver/11595/trunk/Support/lib/tm/event/notification_preferences.rb
+END
+notification_mechanism.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/!svn/ver/11545/trunk/Support/lib/tm/event/notification_mechanism.rb
+END
